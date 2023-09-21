@@ -5,6 +5,7 @@
 
 [1. Start Healenium components](#1-start-healenium-components)
 * [Healenium with Selenium-Grid](#run-healenium-with-selenium-grid)
+* [Healenium without Docker](#run-healenium-without-docker)
 
 
 [2. Configuration RemoteWebDriver for Healenium](#2-configuration-remotewebdriver-for-healenium)
@@ -26,6 +27,10 @@ cd healenium
 ```sh
 docker-compose up -d
 ```
+
+#### Run Healenium without Docker:
+
+Documanetation: https://healenium.io/docs/download_and_install/hlm_proxy
 
 ### 2. Configuration RemoteWebDriver for Healenium
 
