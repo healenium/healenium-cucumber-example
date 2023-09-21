@@ -5,7 +5,6 @@
 
 [1. Start Healenium components](#1-start-healenium-components)
 * [Healenium with Selenium-Grid](#run-healenium-with-selenium-grid)
-* [Healenium with Selenoid](#run-healenium-with-selenoid)
 
 
 [2. Configuration RemoteWebDriver for Healenium](#2-configuration-remotewebdriver-for-healenium)
@@ -28,12 +27,6 @@ cd healenium
 docker-compose up -d
 ```
 
-#### Run Healenium with Selenoid
-
-```sh
-docker-compose -f docker-compose-selenoid.yaml up -d
-```
-
 ### 2. Configuration RemoteWebDriver for Healenium
 
 To run tests using Healenium, create a Remote Web Driver with URL ```http://<hlm-proxy-host>:<hlm-proxy-port>```.  
@@ -45,7 +38,7 @@ In the case of a local launch: http://localhost:8085
 ```
 
 ### 3. Run test
-To run tests in terminal with pytest you need to go to execute next commands:
+To run tests in terminal with maven you need to go to execute next commands:
 
 ```sh
 mvn clean test
